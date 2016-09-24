@@ -1,0 +1,1 @@
+The HMM tagger (with 0% error rate) significantly outerperforms the most frequent tag baseline (with 7.7% error rate ) on the test set. As for unknown word tagging, we have two strategies. For the HMM tagger, we simply choose the most likely next state (POS tag) as its tag according to transition probabilities. For the most frequent tag baseline, we simply choose NN as its tag.
